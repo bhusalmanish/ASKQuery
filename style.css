@@ -1,0 +1,119 @@
+  * {
+      margin: 0;
+      padding: 0;
+      background-color: #04AA6D;
+  }
+  
+  body {
+      top: 80px;
+      /* background-color: #bd7913; */
+  }
+  /* navbar */
+  
+  #navbar {
+      top: 33px;
+      width: 100%;
+      position: fixed;
+  }
+  
+  #logo {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+  }
+  
+  ul {
+      top: 35;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #04AA6D;
+      position: fixed;
+      width: 100%;
+  }
+  
+  li {
+      float: left;
+      border-right: 1px solid #bbb;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+      background-color: rgb(105, 230, 91);
+  }
+  
+  .active {
+      background-color: #04AA6D;
+  }
+  /* login-page  */
+  
+  #login_form {
+      position: fixed;
+      background: #E3AFBC;
+      top: 90px;
+  }
+  /* login_page End */
+  /* dashboard page */
+  
+  #title {
+      color: rgb(20, 20, 23);
+      font-weight: 900;
+      font-size: large;
+      /* font-family: 'Open Sans', sans-serif; */
+      /* font-family: Arial, Helvetica, sans-serif; */
+      border: 3in;
+  }
+  
+  #desc {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .space {
+      /* color: rgb(233, 213, 234); */
+      background-color: rgb(230, 218, 218);
+      width: 100%;
+  }
+  
+  #reply {
+      color: #f4f786;
+  }
+  
+  .card-forum {
+      background-color: #3004aa;
+  }
+  
+  .card {
+      border: 2px solid rgb(115, 8, 231);
+      border-radius: 4px;
+  }
+  /* footer  */
+  
+  #add_query {
+      background-color: rgb(194, 56, 56);
+      top: 200px;
+      position: fixed;
+      width: 100%;
+  }
+  
+  #footer {
+      /* background-color: rgb(138, 231, 158); */
+      bottom: 0px;
+      position: fixed;
+      width: 100%;
+      align-content: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #footer_ul {
+      text-align: center;
+      align-content: center;
+  }
+  /* like dislike css  */
