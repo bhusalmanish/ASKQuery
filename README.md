@@ -21,6 +21,7 @@ ASKQuery is QAfroum site create in php. currently using MYSQL database and basic
 
  #but in code :-- my porgress is 
 
+you can login with 
  > default admin is 'admin' n password is 'admin123' not connect with databse
  > deafult user is 'ram' n password is 'ram123'  not connect with databse
  > both admin n user dashboard are different.
